@@ -1,0 +1,171 @@
+html{
+	zoom:110%;
+}
+body{
+	margin: auto 0;
+}
+
+.zone{
+	cursor: pointer;
+	color: #FFFF;
+	font-size: 2em;
+	border:0px;
+	transition: all 0.3s linear;
+}
+/*COVER*/
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	height: 400px;
+}
+h2{
+	text-align: center;
+}
+	
+.red{
+	background-image: url(https://images.unsplash.com/photo-1517673132405-a56a62b18caf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1056&q=80) ;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom; 
+}
+
+/*SUBJECT*/
+.pink{
+	background-color: white;
+}
+.sub-header{
+	text-align: center;
+	padding-top: 60px;
+	color: black;
+}
+.tab-content{
+	font-size: 25px;
+}
+ul{
+	display: flex;
+	justify-content: center;
+
+}
+
+/*PROJECT*/
+.blue{
+	background-color: #e8e8fa; 
+}
+
+.prj{
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	color: black;
+
+}
+.flexbox{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top:50px;
+	padding-bottom: 60px;  
+
+}
+.img1withtext{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 30px;
+	color: black;
+}
+.img2withtext{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 30px; 
+}
+.img3withtext{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 30px; 
+}
+.img4withtext{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 30px; 
+}
+
+.uniq{
+	width: 240px;
+	height: 156px;
+	margin: 10px;
+	-webkit-transition:all .1s;
+	transition: all 1s;
+	box-shadow: 4px 4px 5px #888888;
+}
+.uniq:hover {
+	transform: scale(1.1);
+	animation: 
+}
+
+
+/*VIDEO*/
+.yellow{
+	background-color: white;
+	justify-content: center;
+}
+/*.flexbox{
+	display: flex;
+	flex-wrap: wrap;
+}*/
+
+
+/*APP*/
+.black{
+	background-color: black;
+}
+.dwnldapp{
+	text-align: center;
+	padding-top: 70px; 
+	padding-bottom: 30px; 
+	justify-content: center;
+}
+.qwee{
+	justify-content: center;
+	text-align: center;
+	padding-bottom: 50px;
+
+}
+.phnimg{
+	justify-content: center;
+	width: 250px;
+	height: 200px;
+	margin: 10px;
+	-webkit-transition:none 0s;
+	transition: none;
+	box-shadow: 0px 0px 0px #888888;
+
+}
+.uniq1{
+	width: 260px;
+	height: 358px;
+	margin: 10px;
+}
+/*FOOTER*/
+.orange{
+	background-color: white;
+	color: black;
+	
+}
+.footbar{
+	display: flex;
+	flex-wrap: wrap;
+	float: left;
+	padding-top: 50px; 
+	height: 350px;
+	font-size: 25px;
+	color: black;
+	margin: 10px;
+	
+}
+.fff{
+	color: black;
+	justify-content: flex-start;
+
+}
+.appstore{
+	justify-content: center;
+}
